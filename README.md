@@ -1,9 +1,10 @@
-# Image Colorization App
+# Image Colorization
 
 This project is an image colorization application that uses deep learning models to colorize grayscale images.
 
 ## Table of Contents
-- [Image Colorization App](#image-colorization-app)
+
+- [Image Colorization](#image-colorization)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -13,12 +14,14 @@ This project is an image colorization application that uses deep learning models
 ## Installation
 
 1. Clone the repository:
+
     ```sh
-    git clone https://github.com/yourusername/image-colorization-app.git
-    cd image-colorization-app
+    git clone https://github.com/ifsvivek/Image-colorization
+    cd Image-colorization
     ```
 
 2. Install the required dependencies:
+
     ```sh
     pip install -r requirements.txt
     ```
@@ -26,6 +29,7 @@ This project is an image colorization application that uses deep learning models
 ## Usage
 
 1. Run the application:
+
     ```sh
     streamlit run app.py
     ```
@@ -37,12 +41,9 @@ This project is an image colorization application that uses deep learning models
 ## Models
 
 This project uses two pre-trained models for colorization:
-- ECCV16
-- SIGGRAPH17
 
-The models are defined in the `colorizers` directory:
-- [ECCV16](colorizers/eccv16.py)
-- [SIGGRAPH17](colorizers/siggraph17.py)
+-   [ECCV16](colorizers/eccv16.py)
+-   [SIGGRAPH17](colorizers/siggraph17.py)
 
 ## License
 
